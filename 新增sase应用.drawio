@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-21T10:30:36.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="N1Jpz_f2zBAirIlb7rpn" version="20.2.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-08-21T12:18:09.611Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6qAhqO11QeA8bChxoP47" version="20.2.4" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="新增sase应用">
     <mxGraphModel dx="1168" dy="546" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -447,6 +447,109 @@
         </mxCell>
         <mxCell id="VMHUrK9JqAWb0gji-pat-16" value="点击取消" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="520" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UyDH_9D8-ICCIZYBZeLn" name="组件图">
+    <mxGraphModel dx="1995" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pCXw3j4f4qjCUNX3-gjb-1" target="pCXw3j4f4qjCUNX3-gjb-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="160" />
+              <mxPoint x="250" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.556;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pCXw3j4f4qjCUNX3-gjb-1" target="pCXw3j4f4qjCUNX3-gjb-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="160" />
+              <mxPoint x="620" y="160" />
+              <mxPoint x="620" y="192" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-1" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;InternalAppManage&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;tabList: Array&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-2" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="pCXw3j4f4qjCUNX3-gjb-1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.456;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pCXw3j4f4qjCUNX3-gjb-3" target="pCXw3j4f4qjCUNX3-gjb-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pCXw3j4f4qjCUNX3-gjb-3" target="pCXw3j4f4qjCUNX3-gjb-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="360" />
+              <mxPoint x="90" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-3" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;SaseApp&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;data:&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;selectedGroup: Object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;function:&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;goupChage&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="180" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-4" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="pCXw3j4f4qjCUNX3-gjb-3">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.589;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pCXw3j4f4qjCUNX3-gjb-5" target="pCXw3j4f4qjCUNX3-gjb-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="340" />
+              <mxPoint x="566" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pCXw3j4f4qjCUNX3-gjb-5" target="pCXw3j4f4qjCUNX3-gjb-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-5" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;ZtaApp&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;data:&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;selectedGroup: Object&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function:&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;goupChage&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="190" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-6" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="pCXw3j4f4qjCUNX3-gjb-5">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-9" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;SaseAppList&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;props:&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;selectedGroup: Object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;data:&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;tableOptions: Object&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;function:&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;onGroupChange:()=&amp;gt;void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;addApp:()=&amp;gt;void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;editApp:()=&amp;gt;void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;deleteApp:()=&amp;gt;void&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="400" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-10" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="pCXw3j4f4qjCUNX3-gjb-9">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-13" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;SaseAppGroupList&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;data:&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;groupList: Array&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;function:&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;addGroup:()=&amp;gt;void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;editGroup:()=&amp;gt;void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;deletegroup:()=&amp;gt;void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;emit:&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&#39;group-chage&#39;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="400" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-14" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="pCXw3j4f4qjCUNX3-gjb-13">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-20" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;ZtaAppList&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;props:&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;selectedGroup: Object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;data:&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;tableOptions: Object&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;function:&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;onGroupChange:()=&amp;gt;void&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="400" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-21" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="pCXw3j4f4qjCUNX3-gjb-20">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-22" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;ZtaAppGroupList&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;data:&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;groupList: Array&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;emit:&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&#39;group-chage&#39;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="400" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pCXw3j4f4qjCUNX3-gjb-23" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="pCXw3j4f4qjCUNX3-gjb-22">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
